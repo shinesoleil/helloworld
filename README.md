@@ -1,5 +1,5 @@
 # helloworld
-first
+1
 Hello World for Golang
 
 ## Simple Command
