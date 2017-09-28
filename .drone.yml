@@ -1,0 +1,13 @@
+pipeline:
+  build:
+    image: golang:latest
+    image: golang:${GO_VERSION}
+    commands:
+      - go get
+      - go test
+
+matrix:
+  GO_VERSION:
+    - latest
+    - "1.7"
+    - "1.6"
